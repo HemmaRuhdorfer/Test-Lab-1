@@ -1,9 +1,9 @@
-describe('String Calculator', function() {
+describe('Dem Alf helfen', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		finder = new SpaceshipFinder();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+	it('should return forever lost on an empty map', function() {
+		expect(finder.findSpaceship("")).toEqual("forever lost");
 	});
 });
