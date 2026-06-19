@@ -13,7 +13,7 @@ describe('Dem Alf helfen', function() {
 		expect(finder.findSpaceship('.X')).toEqual([1,0]);
 	});
 	it('should find spaceship at [0,1]', function() {
-		expect(finder.findSpaceship('.X\n')).toEqual([0,1]);
+		expect(finder.findSpaceship('.\nX')).toEqual([0,1]);
 	});
 	it('should find spaceship at [7,3]', function() {
     expect(finder.findSpaceship(
