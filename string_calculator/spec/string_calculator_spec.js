@@ -10,7 +10,7 @@ describe('Dem Alf helfen', function() {
 		expect(finder.findSpaceship('X')).toEqual([0,0]);
 	});
 	it('should find spaceship at [1,0]', function() {
-		expect(finder.findSpaceship('X')).toEqual([1,0]);
+		expect(finder.findSpaceship('.X')).toEqual([1,0]);
 	});
 
 });
