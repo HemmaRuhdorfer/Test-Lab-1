@@ -1,0 +1,8 @@
+ToDo Liste für ALFs Raumschiff
+
+DONE Empty map -> "Spaceship lost forever."
+DONE No spaceship in map
+DONE Spaceship at [0,0]
+DONE Spaceship at [1,0]
+Spaceship at [0,1]
+Example map returns [7,2]
