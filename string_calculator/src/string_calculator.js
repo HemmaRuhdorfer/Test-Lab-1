@@ -12,7 +12,7 @@ SpaceshipFinder.prototype.findSpaceship = function(map) {
 			var x = rows[y].indexOf('X');
 
 			if (x !== -1) {
-				return [x, rows.length - y - 1];
+				return [x, y];
 			}
 		}
 
