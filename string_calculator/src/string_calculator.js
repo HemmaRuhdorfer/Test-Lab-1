@@ -10,9 +10,9 @@ SpaceshipFinder.prototype.findSpaceship = function(map) {
 
 		for (var y = 0; y < rows.length; y++) {
 			var x = rows[y].indexOf('X');
-			
+
 			if (x !== -1) {
-				return [x, y];
+				return [x, rows.length - y - 1];
 			}
 		}
 
