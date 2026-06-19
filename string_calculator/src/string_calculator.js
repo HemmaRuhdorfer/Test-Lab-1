@@ -1,5 +1,5 @@
-// StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
-	//
+// SpaceshipFinder.js
+function SpaceshipFinder() {}
+SpaceshipFinder.prototype.findSpaceship = function(map) {
+	return "forever lost";
 };
